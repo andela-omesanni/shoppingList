@@ -1,0 +1,53 @@
+
+body{ 
+  margin: 0; 
+  padding: 0; 
+  height:100%; 
+  width: 100%; 
+  font-family: Georgia, "Times New Roman", Times, serif; 
+  background: url(images/bg.jpg);
+  color: white;
+}
+div { box-sizing: border-box; }
+
+#addNew {
+   width: 20%;
+   margin-left: 20%;
+   float: left;
+   border: 1px solid tomato;
+}
+
+#list {
+   width: 22%;
+   border: 1px solid tomato;
+   float: left;
+   margin-left: 10%;
+   /*word-wrap: break-word;*/
+ }
+#item { width: 78%; } 
+
+h1 { text-align: center; }
+#list h2 { 
+   margin: 0; 
+   padding-left: 5px; 
+   font-weight: normal;
+}
+#list #wrap { margin: 3px 0 0 0; padding: 3px 3px  0 3px; }
+
+
+#list span {
+   display: block; 
+   white-space: nowrap; 
+   overflow: hidden;   
+   text-overflow: ellipsis; 
+}
+
+.checked {
+   background: rgba(248,181,0,1); 
+   color: #333333;
+}
+
+.unchecked {background-color: transparent; }
+
+
+
